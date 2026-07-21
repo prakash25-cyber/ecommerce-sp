@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <style>
+        /* Basic modern resets & baseline styles */
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 2rem;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header, main, footer {
+            max-width: 800px;
+            margin: 0 auto 1.5rem auto;
+            background: #ffffff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        h1 {
+            color: #0d6efd;
+            margin-top: 0;
+        }
+
+        button {
+            background-color: #0d6efd;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        button:hover {
+            background-color: #0b5ed7;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>A simple, modern HTML boilerplate.</p>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <h2>About This Page</h2>
+        <p>This is a standard HTML5 structure. You can edit this file in VS Code and open it in your browser to see your changes live.</p>
+        
+        <h3>Key Features Included:</h3>
+        <ul>
+            <li>Responsive design setup (`viewport` tag)</li>
+            <li>Semantic tags (`header`, `main`, `footer`)</li>
+            <li>Embedded CSS for clean styling</li>
+        </ul>
+
+        <button onclick="alert('Hello from HTML!')">Click Me</button>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 My Web Project. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
